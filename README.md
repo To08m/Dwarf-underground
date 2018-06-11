@@ -26,7 +26,7 @@ To practice making components, we've provided all the markup and styling for a s
 ### Super Mega Bonus Credit
 
 * Make a component that contains a text field for leaving a comment
-* Have the text field appear only when the 'comments' link at the bottom of the article is clicked
+* Have the text field appear only when the 'comments' link at the bottom of the article is clicked (boolean whether something is shown)
 
 ### Super Mega Bonus Credit Hyper Fighting
 
