@@ -14,24 +14,17 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-   
-
-    <main className="expanded row">
-      <div className="large-8 medium-12 columns article">
-      <Article />
-        <Sharing />
-      </div>
-      <Sidebar />
-
-      <div className="small-12 columns other-articles">
-        <Clickbait />
-      </div>
-    </main>
-
-    <Footer />
-
-    
-  
+        <main className="expanded row">
+          <div className="large-8 medium-12 columns article">
+            <Article />
+            <Sharing />
+          </div>
+          <Sidebar />
+          <div className="small-12 columns other-articles">
+            <Clickbait />
+          </div>
+        </main>
+         <Footer />
       </div>
     );
   }
