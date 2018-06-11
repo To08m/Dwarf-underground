@@ -6,6 +6,7 @@ import Article from './Article';
 import Sidebar from './Sidebar';
 import Clickbait from './Clickbait';
 import Sharing from './Sharing';
+import Footer from './Footer';
 
 
 class App extends Component {
@@ -27,10 +28,7 @@ class App extends Component {
       </div>
     </main>
 
-    <footer className="expanded row">
-      <h6>&copy; 2017 Erebor Industries</h6>
-      <h6 className="float-right">All rights reserved</h6>
-    </footer>
+    <Footer />
 
     
   
