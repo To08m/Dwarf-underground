@@ -5,6 +5,8 @@ import Header from './Header';
 import Article from './Article';
 import Sidebar from './Sidebar';
 import Clickbait from './Clickbait';
+import Sharing from './Sharing';
+
 
 class App extends Component {
   render() {
@@ -16,16 +18,7 @@ class App extends Component {
     <main className="expanded row">
       <div className="large-8 medium-12 columns article">
       <Article />
-        <div className="article-links">
-          <a className="article-link" href="#">
-            <i className="fa fa-comments-o"></i>
-            <span className="article-link-text">Comments</span>
-          </a>
-          <a className="article-link" href="#">
-            <i className="fa fa-share"></i>
-            <span className="article-link-text">Share Post</span>
-          </a>
-        </div>
+        <Sharing />
       </div>
       <Sidebar />
 
